@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
 
     private string WALK_ANIMATION = "Walk";
 
+    private string GROUND_TAG = "Ground";
+
+    private bool isGrounded;
+
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -37,10 +41,6 @@ public class Player : MonoBehaviour
     {
         PlayerMoveKeyboard();
         AnimatePlayer();
-    }
-
-    private void FixedUpdate()
-    {
         PlayerJump();
     }
 
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
     {
         movementX = Input.GetAxisRaw("Horizontal");
 
-        transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * moveForce; 
+        transform.position += new Vector3(movementX, 0f, 0f) * moveForce * Time.deltaTime; 
     }
 
     void AnimatePlayer()
@@ -70,9 +70,20 @@ public class Player : MonoBehaviour
 
     void PlayerJump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            isGrounded = false;
             myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag(GROUND_TAG))
+        {
+            isGrounded= true;
+            Debug.Log("We landed on ground");
+        }
+    }
+
 }

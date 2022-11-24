@@ -25,48 +25,48 @@ TextureImporter:
     second: Ghost 7
   - first:
       213: 3714015224569861163
-    second: Enemies_7
+    second: Enemies1_1
   - first:
       213: -7844560889915226194
-    second: Enemies_8
+    second: Enemies1_2
   - first:
       213: 4326287474489854147
-    second: Enemies_9
+    second: Enemies1_3
   - first:
       213: 7877921557971618100
-    second: Enemies_10
+    second: Enemies1_4
   - first:
       213: 5366457973745487733
-    second: Enemies_11
+    second: Enemies1_5
   - first:
       213: 572134458542851419
-    second: Enemies_12
+    second: Enemies1_6
   - first:
       213: 5875395181630150645
-    second: Enemies_13
+    second: Enemies1_7
   - first:
       213: 5023289697677887148
-    second: Enemies_14
+    second: Enemies2_1
   - first:
       213: 1511843784806208459
-    second: Enemies_15
+    second: Enemies2_2
   - first:
       213: 9008768272413781845
-    second: Enemies_16
+    second: Enemies2_3
   - first:
       213: 615673380907259118
-    second: Enemies_17
+    second: Enemies2_4
   - first:
       213: -1010674888820381983
-    second: Enemies_18
+    second: Enemies2_5
   - first:
       213: -4181999719777712613
-    second: Enemies_19
+    second: Enemies2_6
   - first:
       213: -3375038303658136201
-    second: Enemies_20
+    second: Enemies2_7
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -87,7 +87,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -126,7 +125,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -200,7 +198,7 @@ TextureImporter:
         width: 93
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,7 +219,7 @@ TextureImporter:
         width: 96
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,7 +240,7 @@ TextureImporter:
         width: 98
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,7 +261,7 @@ TextureImporter:
         width: 96
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,7 +282,7 @@ TextureImporter:
         width: 94
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,7 +303,7 @@ TextureImporter:
         width: 97
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,7 +324,7 @@ TextureImporter:
         width: 97
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,7 +337,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_7
+      name: Enemies1_1
       rect:
         serializedVersion: 2
         x: 20
@@ -347,7 +345,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,7 +358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_8
+      name: Enemies1_2
       rect:
         serializedVersion: 2
         x: 177
@@ -368,7 +366,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -381,7 +379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_9
+      name: Enemies1_3
       rect:
         serializedVersion: 2
         x: 353
@@ -389,7 +387,7 @@ TextureImporter:
         width: 130
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,7 +400,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_10
+      name: Enemies1_4
       rect:
         serializedVersion: 2
         x: 518
@@ -410,7 +408,7 @@ TextureImporter:
         width: 130
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -423,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_11
+      name: Enemies1_5
       rect:
         serializedVersion: 2
         x: 680
@@ -431,7 +429,7 @@ TextureImporter:
         width: 129
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,7 +442,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_12
+      name: Enemies1_6
       rect:
         serializedVersion: 2
         x: 834
@@ -452,7 +450,7 @@ TextureImporter:
         width: 135
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -465,7 +463,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_13
+      name: Enemies1_7
       rect:
         serializedVersion: 2
         x: 1015
@@ -473,7 +471,7 @@ TextureImporter:
         width: 136
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,7 +484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_14
+      name: Enemies2_1
       rect:
         serializedVersion: 2
         x: 23
@@ -494,7 +492,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -507,7 +505,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_15
+      name: Enemies2_2
       rect:
         serializedVersion: 2
         x: 180
@@ -515,7 +513,7 @@ TextureImporter:
         width: 129
         height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,7 +526,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_16
+      name: Enemies2_3
       rect:
         serializedVersion: 2
         x: 357
@@ -536,7 +534,7 @@ TextureImporter:
         width: 129
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_17
+      name: Enemies2_4
       rect:
         serializedVersion: 2
         x: 522
@@ -557,7 +555,7 @@ TextureImporter:
         width: 129
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -570,7 +568,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_18
+      name: Enemies2_5
       rect:
         serializedVersion: 2
         x: 683
@@ -578,7 +576,7 @@ TextureImporter:
         width: 129
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -591,7 +589,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_19
+      name: Enemies2_6
       rect:
         serializedVersion: 2
         x: 837
@@ -599,7 +597,7 @@ TextureImporter:
         width: 136
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -612,7 +610,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_20
+      name: Enemies2_7
       rect:
         serializedVersion: 2
         x: 1019
@@ -620,7 +618,7 @@ TextureImporter:
         width: 135
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -642,28 +640,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Enemies_16: 9008768272413781845
-      Enemies_18: -1010674888820381983
-      Enemies_10: 7877921557971618100
-      Enemies_19: -4181999719777712613
-      Ghost 1: 2192450021786810173
-      Enemies_20: -3375038303658136201
-      Ghost 3: -860468679390908754
-      Enemies_15: 1511843784806208459
-      Enemies_12: 572134458542851419
-      Ghost 4: -7945901444079236628
-      Enemies_9: 4326287474489854147
-      Ghost 6: -1147401495359466748
-      Enemies_11: 5366457973745487733
-      Ghost 5: -8421458170528590454
-      Enemies_17: 615673380907259118
-      Enemies_7: 3714015224569861163
-      Ghost 7: 8414478535512612329
-      Enemies_14: 5023289697677887148
-      Ghost 2: -7537196482120660328
-      Enemies_8: -7844560889915226194
-      Enemies_13: 5875395181630150645
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
