@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
 
     private string GROUND_TAG = "Ground";
 
+    private string ENEMY_TAG = "Enemy";
+
     private bool isGrounded;
 
     private void Awake()
@@ -83,6 +85,19 @@ public class Player : MonoBehaviour
         {
             isGrounded= true;
             Debug.Log("We landed on ground");
+        }
+
+        if (collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            Destroy(gameObject);
         }
     }
 
