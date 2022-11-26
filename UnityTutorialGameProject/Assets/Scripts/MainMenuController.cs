@@ -10,8 +10,9 @@ public class MainMenuController : MonoBehaviour
         int selectedCharacter =
             int.Parse(UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name);
 
+        GameManager.instance.CharIndex = selectedCharacter;
 
-        //SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("Gameplay");
     }
 
 }
